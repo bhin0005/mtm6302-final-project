@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+   
+    <title>Digital Clock</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div id="option-buttons" class="btn-grid">
+            <div class="btn-grid">
+                <div id="text" class="btn1">Digital Clock</div>
+            </div>
+            <div class="btn-grid">
+                <div id="clock" class="btn"></div>
+            </div>
+            <div class="btn-grid" id="info-content">
+                <button onclick="changeTextColor()" class="btn">Change Text Color</button>
+                <button onclick="changeBackColor()" class="btn">Change Background Color</button>
+            </div>
+            <div class="btn-grid" id="info-content">
+                <div id="info" class="btn1"></div>
+                <button onclick="displayInfo()" class="btn">More Info</button>
+            </div>
+            
+            
+        </div>
+    
+        <div class="btn-grid">
+            <div id="apod-image" class="btn"></div>
+        </div>
+        <div class="btn-grid">
+            <div id="explaination" class="btn1"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
